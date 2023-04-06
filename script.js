@@ -3,7 +3,6 @@ let modalContainer = document.querySelector(".modal-container");
 let closeBtn = document.querySelector(".close-btn");
 // console.log(modalBtn);
 // console.log(modalWindow.style.opacity);
-
 modalBtn.addEventListener("click", () => {
   modalContainer.style.display = "block";
 });
